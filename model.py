@@ -68,4 +68,3 @@ class CNN_to_RNN(nn.Module):
                     break
 
         return [vocabulary.itos[idx] for idx in result_caption]
-    
